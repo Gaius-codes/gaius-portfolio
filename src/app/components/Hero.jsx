@@ -2,7 +2,7 @@
 
 // all imports
 import { motion } from "framer-motion";
-import { useState, useEffect } from "react";
+import { useEffect } from "react";
 import Link from "next/link";
 import { useLenis } from "lenis/react";
 

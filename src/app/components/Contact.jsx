@@ -29,12 +29,12 @@ export default function Contact() {
       url: "https://x.com/Gaius_codes",
       icon: faXTwitter,
     },
-    // {
-    //   name: "Instagram",
-    //   handle: "@ayungclassic",
-    //   url: "https://www.instagram.com/ayungclassic/",
-    //   icon: faInstagram,
-    // },
+    {
+      name: "Instagram",
+      handle: "@ayungcinematic",
+      url: "https://www.instagram.com/ayungcinematic/",
+      icon: faInstagram,
+    },
   ];
 
   const containerVariants = {
