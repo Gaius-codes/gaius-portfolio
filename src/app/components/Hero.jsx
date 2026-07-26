@@ -92,9 +92,12 @@ export default function Hero() {
               e.preventDefault();
               lenis?.scrollTo("#projects");
             }}
-            className="w-full sm:w-auto px-8 py-3 bg-stone-900 text-white dark:bg-stone-200 dark:text-black font-semibold rounded-md hover:bg-yellow-600 dark:hover:bg-yellow-600 dark:hover:text-white transition-colors duration-200 text-center shadow-md shadow-stone-900/10 dark:shadow-none"
+            className="relative inline-flex items-center justify-center w-full sm:w-auto px-8 py-3 bg-stone-900 text-white dark:bg-stone-200 dark:text-black font-semibold rounded-md text-center shadow-md shadow-stone-900/10 dark:shadow-none overflow-hidden group"
           >
-            View My Work
+            <span className="absolute inset-0 bg-yellow-600 translate-y-full group-hover:translate-y-0 transition-transform duration-700 ease-out rounded-md" />
+            <span className="relative z-10 transition-colors duration-700 group-hover:text-white">
+              View My Work
+            </span>
           </Link>
           <Link
             href="#"

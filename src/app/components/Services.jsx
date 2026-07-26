@@ -76,18 +76,18 @@ export default function Services() {
             <motion.div
               key={service.step}
               variants={cardVariants}
-              className="group relative p-8 rounded-md border border-stone-200 dark:border-stone-900 bg-stone-50/40 dark:bg-stone-950/10 hover:border-yellow-600/40 dark:hover:border-yellow-600/30 transition-all duration-300 flex flex-col justify-between min-h-[260px]"
+              className="group relative p-8 rounded-md border border-stone-200 dark:border-stone-900 bg-stone-50/40 dark:bg-stone-950/10 hover:border-yellow-600/40 dark:hover:border-yellow-600/30 transition-all duration-500 flex flex-col justify-between min-h-[260px]"
             >
               <div className="flex items-center justify-between">
                 <span className="font-mono text-xs font-bold text-stone-400 dark:text-stone-600 tracking-wider">
                   {`// ${service.step}`}
                 </span>
 
-                <span className="w-1.5 h-1.5 rounded-full bg-stone-300 dark:bg-stone-800 group-hover:bg-yellow-600 dark:group-hover:bg-yellow-600 transition-all duration-300 group-hover:scale-125" />
+                <span className="w-1.5 h-1.5 rounded-full bg-stone-300 dark:bg-stone-800 group-hover:bg-yellow-600 dark:group-hover:bg-yellow-600 transition-all duration-500 group-hover:scale-125" />
               </div>
 
               <div className="mt-8 space-y-3">
-                <h3 className="text-xl sm:text-2xl font-bold tracking-tight text-stone-950 dark:text-white transition-colors duration-200 group-hover:text-yellow-600 dark:group-hover:text-yellow-600">
+                <h3 className="text-xl sm:text-2xl font-bold tracking-tight text-stone-950 dark:text-white transition-colors duration-500 group-hover:text-yellow-600 dark:group-hover:text-yellow-600">
                   {service.title}
                 </h3>
                 <p className="text-stone-600 dark:text-stone-400 text-sm sm:text-base leading-relaxed font-normal">

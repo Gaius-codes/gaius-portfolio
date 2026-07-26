@@ -1,4 +1,6 @@
 {
 	"folders": [],
-	"settings": {}
+	"settings": {
+		"python-envs.defaultEnvManager": "ms-python.python:system"
+	}
 }

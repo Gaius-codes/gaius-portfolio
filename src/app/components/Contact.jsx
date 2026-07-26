@@ -121,6 +121,21 @@ export default function Contact() {
                   </span>
                 </span>
               </a>
+              {/* calls */}
+              <a
+                href="tel:+2348137297521"
+                className="group flex flex-col justify-center p-4 rounded-md border border-stone-100 dark:border-stone-950 hover:border-yellow-600/30 hover:bg-stone-50/50 dark:hover:bg-stone-950/20 transition-all duration-300"
+              >
+                <span className="text-[10px] font-mono font-bold uppercase tracking-widest text-stone-400 dark:text-stone-600">
+                  {`// Direct Calls`}
+                </span>
+                <span className="text-lg sm:text-xl font-bold text-stone-950 dark:text-white group-hover:text-yellow-600 transition-colors duration-200 mt-1 flex items-center gap-2">
+                  +234 813 729 7521
+                  <span className="text-xs bg-emerald-500/10 text-emerald-500 px-2 py-0.5 rounded font-mono font-normal">
+                    Active
+                  </span>
+                </span>
+              </a>
             </motion.div>
           </div>
 
