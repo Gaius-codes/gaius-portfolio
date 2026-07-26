@@ -52,7 +52,7 @@ export default function CustomCursor() {
   if (!isVisible) return null
 
   return (
-    <>
+    <div className='hidden lg:block'>
       {/* 1. center dot */}
       <motion.div
         className="fixed top-0 left-0 w-2 h-2 bg-stone-950 dark:bg-white rounded-full pointer-events-none z-[9999] mix-blend-difference"
@@ -80,6 +80,6 @@ export default function CustomCursor() {
         }}
         transition={{ type: 'tween', ease: 'backOut', duration: 0.2 }}
       />
-    </>
+    </div>
   )
 }
