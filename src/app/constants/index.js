@@ -78,3 +78,81 @@ export const projectsArr = [
     githubLink: "https://github.com/Ayungcodes/neuraflow",
   },
 ];
+
+export const coreLanguages = [
+    { 
+      name: 'JavaScript', 
+      type: 'Language',
+      description: 'The core scripting engine of the web for dynamic logic and interactivity.',
+      useCase: 'Building client-side logic, API calls, dynamic UI behavior, and async operations.'
+    },
+    { 
+      name: 'TypeScript', 
+      type: 'Language',
+      description: 'Strongly typed programming language that builds on JavaScript.',
+      useCase: 'Ensuring type safety, preventing runtime bugs, and scaling clean codebase architectures.'
+    },
+    { 
+      name: 'React.js', 
+      type: 'Frontend Framework',
+      description: 'Declarative component-based UI library for modern web apps.',
+      useCase: 'Crafting responsive user interfaces, modular components, and fluid UI state management.'
+    },
+    { 
+      name: 'Next.js', 
+      type: 'Full-Stack Framework',
+      description: 'The React framework for high-performance full-stack applications.',
+      useCase: 'Server-side rendering (SSR), SEO optimization, API routes, and optimized routing.'
+    },
+    { 
+      name: 'Node.js', 
+      type: 'Runtime Environment',
+      description: 'Event-driven JavaScript runtime built on Chrome\'s V8 engine.',
+      useCase: 'Running asynchronous backend services, handling server-side logic, and CLI tool builds.'
+    },
+    { 
+      name: 'Express.js', 
+      type: 'Backend Framework',
+      description: 'Minimalist, fast web framework for Node.js backends.',
+      useCase: 'Designing RESTful APIs, custom backend services, middleware, and request routing.'
+    },
+    { 
+      name: 'PostgreSQL', 
+      type: 'Database',
+      description: 'Powerful, enterprise-grade open source relational database system.',
+      useCase: 'Structuring complex data models, maintaining ACID compliance, and relational queries.'
+    },
+    { 
+      name: 'TailwindCSS', 
+      type: 'Styling Engine',
+      description: 'Utility-first CSS framework for rapid custom UI design.',
+      useCase: 'Styling minimal, high-contrast, responsive layouts with custom design tokens.'
+    },
+  ]
+
+  export const tools = [
+    { 
+      name: 'Supabase', 
+      type: 'Database / Auth',
+      description: 'Open source Firebase alternative with PostgreSQL under the hood.',
+      useCase: 'Managing backend authentication, real-time subscriptions, and instant DB access.'
+    },
+    { 
+      name: 'Git', 
+      type: 'Version Control',
+      description: 'Distributed version control system for tracking source code changes.',
+      useCase: 'Code versioning, feature branching, merge strategies, and history auditing.'
+    },
+    { 
+      name: 'GitHub', 
+      type: 'Repository Hosting',
+      description: 'Developer platform for code hosting, review, and collaboration.',
+      useCase: 'Managing source code repositories, CI/CD actions, pull requests, and deployment triggers.'
+    },
+    { 
+      name: 'Vercel', 
+      type: 'Deployment / Hosting',
+      description: 'Cloud platform designed specifically for static and serverless web apps.',
+      useCase: 'Instant production deployments, serverless functions execution, and continuous integration.'
+    },
+  ]
