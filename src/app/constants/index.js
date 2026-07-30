@@ -21,8 +21,19 @@ export const projectsArr = [
     liveLink: "https://movue-woad.vercel.app/",
     githubLink: "https://github.com/Ayungcodes/Movue",
   },
-  {
+    {
     id: "03",
+    photo: "/images/newsletter.png",
+    title: "Newsletter Service",
+    category: "Full-Stack Project",
+    description:
+      "A modern newsletter subscription application built with Next.js, TypeScript, and Tailwind CSS. Users can securely subscribe using their email address, with server-side validation powered by Zod, subscriber data stored in Supabase (PostgreSQL), and automatic welcome emails delivered through Resend. The application follows a secure architecture by handling all database operations and email delivery on the server, preventing exposure of sensitive credentials while providing a smooth user experience.",
+    tags: ["Next.js", "TypeScript", "Tailwind CSS", "Supabase", "Resend"],
+    liveLink: "https://newsletter-service-lemon.vercel.app/",
+    githubLink: "https://github.com/Gaius-codes/newsletter-service",
+  },
+  {
+    id: "04",
     photo: "/images/devlog.png",
     title: "DevLog",
     category: "Full-Stack Application",
@@ -33,7 +44,7 @@ export const projectsArr = [
     githubLink: "https://github.com/Ayungcodes/devlog-fullstack",
   },
   {
-    id: "04",
+    id: "05",
     photo: "/images/tim.png",
     title: "Tim Creative",
     category: "Front-End Application",
@@ -44,7 +55,7 @@ export const projectsArr = [
     githubLink: "https://github.com/Ayungcodes/Tim-Concept",
   },
   {
-    id: "05",
+    id: "06",
     photo: "/images/watch.png",
     title: "Luxury Watch E-commerce Site",
     category: "Front-End Application",
@@ -56,7 +67,7 @@ export const projectsArr = [
   },
 
   {
-    id: "06",
+    id: "07",
     photo: "/images/neura.png",
     title: "NeuraFlow",
     category: "Front-End Application",
