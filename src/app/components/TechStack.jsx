@@ -6,6 +6,7 @@ import { motion } from 'framer-motion'
 export default function TechStack() {
   const coreLanguages = [
     { name: 'JavaScript', type: 'Language' },
+    { name: 'TypeScript', type: 'Language' },
     { name: 'React.js', type: 'Frontend Framework' },
     { name: 'Next.js', type: 'Full-Stack Framework' },
     { name: 'Node.js', type: 'Runtime Environment' },
