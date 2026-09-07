@@ -110,7 +110,7 @@ export default function Hero() {
             Let&apos;s Talk
           </Link>
           <a
-            href="/001-Gaius-Emmanuel.pdf"
+            href="/01_Gaius_Emmanuel_CV.pdf"
             target="_blank"
             className="w-full sm:w-auto px-8 py-3 border border-stone-200 dark:border-stone-800 font-semibold rounded-md bg-transparent hover:bg-stone-50 dark:hover:bg-stone-950 hover:border-yellow-600 transition-colors duration-200 text-center"
           >
