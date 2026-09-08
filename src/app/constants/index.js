@@ -7,7 +7,8 @@ export const projectsArr = [
     description:
       "A graph-powered career intelligence platform designed to connect candidate skills and experience directly to relevant career opportunities. Models complex relationships between candidates, skills, projects, technologies, companies, industries, and jobs to deliver explainable job matches and pinpoint critical skill gaps. Built with Next.js, CognoDB, Supabase, and Cypher, featuring an interactive graph explorer for visualizing career pathways and navigating multi-hop connections.",
     tags: ["Next.js", "CognoDB", "Supabase", "Cypher", "Tailwind CSS"],
-    liveLink: "https://careergraph-7gpozruws-gaius-emmanuels-projects.vercel.app/",
+    liveLink:
+      "https://careergraph-7gpozruws-gaius-emmanuels-projects.vercel.app/",
     githubLink: "https://github.com/Gaius-codes/careergraph",
   },
   {
@@ -56,29 +57,17 @@ export const projectsArr = [
   },
   {
     id: "05",
-    photo: "/images/tim.png",
-    title: "Tim Creative",
+    photo: "/images/elane.png",
+    title: "ÉLANÉ — Luxury Skincare Showcase",
     category: "Front-End Application",
     description:
-      "A sleek, modern portfolio site built with React and Tailwind CSS, showcasing a clean design, smooth animations, and a focus on performance. It’s a digital canvas that brings creativity to life, blending form and function into a seamless user experience.",
-    tags: ["React.js", "Tailwind CSS"],
-    liveLink: "https://timcreative.vercel.app/",
-    githubLink: "https://github.com/Ayungcodes/Tim-Concept",
+      "A high-end luxury skincare landing page built with Next.js, Tailwind CSS, and Framer Motion. Blends editorial aesthetics and fluid micro-interactions into an immersive digital brand experience. Features smooth scroll integration, interactive ingredient breakdowns, and an upgraded testimonial showcase engineered for performance and visual elegance.",
+    tags: ["Next.js", "Tailwind CSS", "Framer Motion", "Lenis"],
+    liveLink: "https://elane-skincare.vercel.app/",
+    githubLink: "https://github.com/Ayungcodes/elane-skincare",
   },
   {
     id: "06",
-    photo: "/images/watch.png",
-    title: "Luxury Watch E-commerce Site",
-    category: "Front-End Application",
-    description:
-      "A luxury watch shop built with React and Tailwind CSS, blending performance and design into a smooth, elegant experience. Every scroll, hover, and transition mirrors the precision and polish of the timepieces themselves.",
-    tags: ["React.js", "Tailwind CSS"],
-    liveLink: "https://luxury-watch-shop-neon.vercel.app/",
-    githubLink: "https://github.com/Ayungcodes/luxury-watch-shop",
-  },
-
-  {
-    id: "07",
     photo: "/images/neura.png",
     title: "NeuraFlow",
     category: "Front-End Application",
@@ -87,6 +76,35 @@ export const projectsArr = [
     tags: ["React.js", "Tailwind CSS"],
     liveLink: "https://neuraflow-azure.vercel.app/",
     githubLink: "https://github.com/Ayungcodes/neuraflow",
+  },
+  {
+    id: "07",
+
+    photo: "/images/watch.png",
+
+    title: "Luxury Watch E-commerce Site",
+
+    category: "Front-End Application",
+
+    description:
+      "A luxury watch shop built with React and Tailwind CSS, blending performance and design into a smooth, elegant experience. Every scroll, hover, and transition mirrors the precision and polish of the timepieces themselves.",
+
+    tags: ["React.js", "Tailwind CSS"],
+
+    liveLink: "https://luxury-watch-shop-neon.vercel.app/",
+
+    githubLink: "https://github.com/Ayungcodes/luxury-watch-shop",
+  },
+  {
+    id: "08",
+    photo: "/images/tim.png",
+    title: "Tim Creative",
+    category: "Front-End Application",
+    description:
+      "A sleek, modern portfolio site built with React and Tailwind CSS, showcasing a clean design, smooth animations, and a focus on performance. It’s a digital canvas that brings creativity to life, blending form and function into a seamless user experience.",
+    tags: ["React.js", "Tailwind CSS"],
+    liveLink: "https://timcreative.vercel.app/",
+    githubLink: "https://github.com/Ayungcodes/Tim-Concept",
   },
 ];
 
